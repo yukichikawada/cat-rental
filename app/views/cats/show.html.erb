@@ -1,0 +1,18 @@
+<%= link_to "Cat Index", cats_url %>
+<h1><%= @cat.name %></h1>
+
+<%= link_to "Edit Cat", edit_cat_url %>
+<ul>
+  <li>
+    <%= @cat.age %>
+  </li>
+  <li>
+    <%= @cat.sex %>
+  </li>
+  <li>
+    <%= @cat.color %>
+  </li>
+  <li>
+    <%= @cat.description %>
+  </li>
+</ul>
